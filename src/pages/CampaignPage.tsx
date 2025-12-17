@@ -37,14 +37,14 @@ const CampaignPage: React.FC = () => {
         </div>
         {/* Cards */}
         <div style={{  display: "flex", gap: 40, marginBottom: 32,width: '100%', justifyContent: 'center' }}>
-          <div style={{ width: '20vw', height: '60vh', background: "linear-gradient(to bottom, #eaf2ff 60%, #fff 100%)", borderRadius: 12, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 16px rgba(0,0,0,0.03)" }}>
+          <div style={{ width: '20vw', height: '40vh', background: "linear-gradient(to bottom, #eaf2ff 60%, #fff 100%)", borderRadius: 12, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 16px rgba(0,0,0,0.03)" }}>
             <div style={{ fontSize: 48, fontWeight: 600, color: "#666", marginBottom: 8 }}>124</div>
             <div style={{ fontSize: 20, color: "#444", marginBottom: 32 }}>customers</div>
             <div style={{ flex: 1 }} />
             <div style={{ color: "#1976d2", fontSize: 22, cursor: "pointer" }}>›</div>
             <div style={{ color: "#888", fontSize: 15, marginTop: 8 }}>switch</div>
           </div>
-          <div style={{ height: '60vh',width: '20vw', background: "linear-gradient(to bottom, #eaf2ff 60%, #fff 100%)", borderRadius: 12, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 16px rgba(0,0,0,0.03)" }}>
+          <div style={{ height: '40vh',width: '20vw', background: "linear-gradient(to bottom, #eaf2ff 60%, #fff 100%)", borderRadius: 12, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 16px rgba(0,0,0,0.03)" }}>
             <div style={{ fontSize: 48, fontWeight: 600, color: "#666", marginBottom: 8 }}>15%</div>
             <div style={{ fontSize: 20, color: "#444", marginBottom: 32 }}>discount</div>
             <div style={{ flex: 1 }} />

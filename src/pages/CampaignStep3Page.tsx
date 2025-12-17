@@ -37,8 +37,8 @@ const CampaignStep3Page: React.FC = () => {
         </div>
         {/* Cards */}
         <div style={{ display: "flex", gap: 40, marginBottom: 32 }}>
-          <div style={{ width: '20vw', height: '60vh', background: "linear-gradient(to bottom, #eaf2ff 60%, #fff 100%)", borderRadius: 12, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "flex-start", boxShadow: "0 2px 16px rgba(0,0,0,0.03)", overflow: 'hidden' }}>
-            <img src="src/assets/offer.png" alt="Offer" style={{ width: '100%', height: '60%', objectFit: 'cover' }} />
+          <div style={{ width: '20vw', height: '40vh', background: "linear-gradient(to bottom, #eaf2ff 60%, #fff 100%)", borderRadius: 12, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "flex-start", boxShadow: "0 2px 16px rgba(0,0,0,0.03)", overflow: 'hidden' }}>
+            <img src="offer.png" alt="Offer" style={{ width: '100%', height: '60%', objectFit: 'cover' }} />
             <div style={{ fontSize: 14, color: "#444", margin: '16px 16px 0 16px', textAlign: 'left', minHeight: 60 }}>
               Dear customer's name, here is a 15% discount on any purchase you make this coming Friday, 05/11/2025. Love, Nanna's Pizza.
             </div>
@@ -47,7 +47,7 @@ const CampaignStep3Page: React.FC = () => {
               <button style={{ width: '100%', border: 'none', background: '#f5f7fa', color: '#888', fontSize: 15, padding: '10px 0', cursor: 'pointer', borderTop: '1px solid #e0e7ef' }}>Maybe next time</button>
             </div>
           </div>
-          <div style={{ width: '20vw', height: '60vh', background: "linear-gradient(to bottom, #eaf2ff 60%, #fff 100%)", borderRadius: 12, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 16px rgba(0,0,0,0.03)" }}>
+          <div style={{ width: '20vw', height: '40vh', background: "linear-gradient(to bottom, #eaf2ff 60%, #fff 100%)", borderRadius: 12, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", boxShadow: "0 2px 16px rgba(0,0,0,0.03)" }}>
             <div style={{ fontSize: 48, fontWeight: 600, color: "#666", marginBottom: 8 }}>1,240</div>
             <div style={{ fontSize: 20, color: "#444", marginBottom: 32 }}>KES</div>
             <div style={{ flex: 1 }} />

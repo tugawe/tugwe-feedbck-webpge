@@ -583,7 +583,7 @@ const DashboardPage: React.FC = () => {
       <Header />
       <div style={{ display: "flex", flexDirection: "row", width: '100%', margin:"auto" }}>
         {/* Sidebar */}
-        <aside style={{ width: '15vw', position: 'relative', padding: 0, paddingTop: 48, paddingLeft: 48,display: "flex", flexDirection: "column", gap: 20, textAlign: 'left', boxSizing: 'border-box' }}>
+        <aside style={{ width: '25vw', position: 'relative', padding: 0, paddingTop: 48, paddingLeft: 48,display: "flex", flexDirection: "column", gap: 20, textAlign: 'left', boxSizing: 'border-box' }}>
         <div style={{ fontWeight: 600, fontSize: 20, marginBottom: 4 }}>Dashboard</div>
         <nav style={{ display: "flex", flexDirection: "column", gap: 24 }}>
           <a
