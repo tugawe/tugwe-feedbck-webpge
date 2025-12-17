@@ -3,7 +3,6 @@ import MorePage from './pages/MorePage';
 import CampaignStep2Page from './pages/CampaignStep2Page';
 import CampaignPage from './pages/CampaignPage';
 import DashboardPage from './pages/DashboardPage';
-import React from 'react';
 import './App.css';
 
 
