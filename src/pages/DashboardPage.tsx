@@ -13,7 +13,7 @@ const DashboardPage: React.FC = () => {
       return (
         <div style={{
           width: '80%',
-          height: '70vh',
+          height: '60vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
           padding: "48px 0 0 0",
@@ -96,7 +96,7 @@ const DashboardPage: React.FC = () => {
       return (
         <div style={{
           width: '80%',
-          height: '70vh',
+          height: '60vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
           padding: "48px 0 0 0",
@@ -183,7 +183,7 @@ const DashboardPage: React.FC = () => {
       return (
         <div style={{
           width: '80%',
-          height: '70vh',
+          height: '60vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
           padding: "48px 0 0 0",
@@ -296,7 +296,7 @@ const DashboardPage: React.FC = () => {
       return (
         <div style={{
           width: '80%',
-          height: '70vh',
+          height: '60vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
           padding: "48px 0 0 0",
@@ -408,7 +408,7 @@ const DashboardPage: React.FC = () => {
       return (
         <div style={{
           width: '80%',
-          height: '70vh',
+          height: '60vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
           padding: "48px 0 0 0",
@@ -504,7 +504,7 @@ const DashboardPage: React.FC = () => {
       return (
         <div style={{
           width: '80%',
-          height: '70vh',
+          height: '60vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
           padding: "48px 0 0 0",
