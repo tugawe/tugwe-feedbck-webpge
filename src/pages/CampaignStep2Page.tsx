@@ -6,7 +6,7 @@ import Header from "./Header";
 const CampaignStep2Page: React.FC = () => {
   const navigate = useNavigate();
   return (
-    <div style={{ minHeight: "80vh", background: "#fff", width: '80vw' }}>
+    <div style={{ minHeight: "65vh", background: "#fff", width: '80vw' }}>
       <Header />
       <div style={{ display: "flex", flexDirection: "row", width: '100%' }}>
         {/* Left: Back */}

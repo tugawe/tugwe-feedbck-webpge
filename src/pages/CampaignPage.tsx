@@ -5,7 +5,7 @@ import Header from "./Header";
 const CampaignPage: React.FC = () => {
   const navigate = useNavigate();
   return (
-    <div style={{ minHeight: "100vh", background: "#fff", width: '80vw', margin: 'auto' }}>
+    <div style={{ minHeight: "65vh", background: "#fff", width: '80vw', margin: 'auto' }}>
       <Header />
       <div style={{ display: "flex", flexDirection: "row", width: '100%' }}>
         {/* Left: Back to Dashboard */}

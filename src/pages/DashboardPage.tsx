@@ -579,7 +579,7 @@ const DashboardPage: React.FC = () => {
   };
 
   return (
-    <div style={{ minHeight: "80vh", background: "#fff", width: '80vw',margin:"auto" }}>
+    <div style={{ minHeight: "80vh", background: "#fff", width: '70vw',margin:"auto" }}>
       <Header />
       <div style={{ display: "flex", flexDirection: "row", width: '100%', margin:"auto" }}>
         {/* Sidebar */}
