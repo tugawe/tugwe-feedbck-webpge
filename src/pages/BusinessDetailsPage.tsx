@@ -16,7 +16,7 @@ const BusinessDetailsPage: React.FC = () => {
   };
 
   return (
-    <div style={{ minHeight: "80vh", display: "flex", background: "#fff" }}>
+    <div style={{ minHeight: "70vh", display: "flex", background: "#fff" }}>
       {/* Left: Image */}
       <div style={{ flex: 1, minWidth: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "#fff" }}>
         <img
