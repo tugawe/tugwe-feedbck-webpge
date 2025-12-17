@@ -26,17 +26,17 @@ const BusinessDetailsPage: React.FC = () => {
         />
       </div>
       {/* Right: Content */}
-      <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "0 60px" }}>
+      <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "0 20px" }}>
         {/* Tabs */}
-        <div style={{ display: "flex", gap: 24, marginBottom: 40, justifyContent: "center", width: "100%" }}>
+        <div style={{ display: "flex", gap: 24, marginBottom: 20, justifyContent: "center", width: "100%" }}>
           <span style={{ color: "#aaa", fontSize: 22, fontWeight: 400 }}>eatery</span>
         </div>
         {/* Title */}
-        <h1 style={{ fontSize: 48, fontWeight: 400, color: "#1976d2", marginBottom: 32, lineHeight: 1.1 }}>
+        <h1 style={{ fontSize: 34, fontWeight: 400, color: "#1976d2", marginBottom: 32, lineHeight: 1.1 }}>
           Business details
         </h1>
         {/* Form */}
-        <form onSubmit={handleNext} style={{ width: "100%", maxWidth: 420, marginBottom: 48 }}>
+        <form onSubmit={handleNext} style={{ width: "100%", maxWidth: 420, marginBottom: 24}}>
           <input
             name="name"
             value={form.name}
