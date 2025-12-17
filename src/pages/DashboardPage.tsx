@@ -12,7 +12,7 @@ const DashboardPage: React.FC = () => {
     if (section === 'trending') {
       return (
         <div style={{
-          width: '100%',
+          width: '80%',
           height: '70vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
@@ -95,7 +95,7 @@ const DashboardPage: React.FC = () => {
     if (section === 'feelings') {
       return (
         <div style={{
-          width: '100%',
+          width: '80%',
           height: '70vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
@@ -182,7 +182,7 @@ const DashboardPage: React.FC = () => {
     if (section === 'satisfaction') {
       return (
         <div style={{
-          width: '100%',
+          width: '80%',
           height: '70vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
@@ -295,7 +295,7 @@ const DashboardPage: React.FC = () => {
     if (section === 'staff') {
       return (
         <div style={{
-          width: '100%',
+          width: '80%',
           height: '70vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
@@ -407,7 +407,7 @@ const DashboardPage: React.FC = () => {
     if (section === 'clients') {
       return (
         <div style={{
-          width: '100%',
+          width: '80%',
           height: '70vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
@@ -503,7 +503,7 @@ const DashboardPage: React.FC = () => {
     if (section === 'branches') {
       return (
         <div style={{
-          width: '100%',
+          width: '80%',
           height: '70vh',
           background: "linear-gradient(to bottom, #eaf2ff 0%, #eaf2ff 75%, #fff 100%)",
           borderRadius: 12,
