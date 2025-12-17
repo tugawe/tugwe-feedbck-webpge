@@ -12,7 +12,7 @@ const SignupPage: React.FC = () => {
       {/* Left: Image */}
       <div style={{ flex: 1, minWidth: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "#fff" }}>
         <img
-          src="src/assets/food.png"
+          src="food.png"
           alt="Food with view"
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
         />

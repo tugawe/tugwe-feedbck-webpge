@@ -8,7 +8,7 @@ const HomePage: React.FC = () => {
   };
 
   return (
-    <div style={{ minHeight: "100vh", background: "#fff" }}>
+    <div style={{ minHeight: "80vh", background: "#fff" }}>
       {/* Header */}
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "40px 60px 0 80px" }}>
         <div style={{ fontSize: 20, fontWeight: 400, color: "#222" }}>Tugawe Feedback</div>
@@ -32,11 +32,11 @@ const HomePage: React.FC = () => {
         {/* Right: Images */}
         <div style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center", gap: 14 }}>
           <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-            <img src="src/assets/food.png" alt="Food with view" style={{ width: 200, height: 350, objectFit: "cover", borderRadius: 8, boxShadow: "0 4px 24px rgba(0,0,0,0.07)" }} />
+            <img src="food.png" alt="Food with view" style={{ width: 200, height: 350, objectFit: "cover", borderRadius: 8, boxShadow: "0 4px 24px rgba(0,0,0,0.07)" }} />
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-            <img src="src/assets/people.png" alt="People with tablet" style={{ width: 160, height: 200, objectFit: "cover", borderRadius: 8, boxShadow: "0 4px 24px rgba(0,0,0,0.07)" }} />
-            <img src="src/assets/bag.png" alt="Bag on grass" style={{ width: 160, height: 200, objectFit: "cover", borderRadius: 8, boxShadow: "0 4px 24px rgba(0,0,0,0.07)" }} />
+            <img src="people.png" alt="People with tablet" style={{ width: 160, height: 200, objectFit: "cover", borderRadius: 8, boxShadow: "0 4px 24px rgba(0,0,0,0.07)" }} />
+            <img src="bag.png" alt="Bag on grass" style={{ width: 160, height: 200, objectFit: "cover", borderRadius: 8, boxShadow: "0 4px 24px rgba(0,0,0,0.07)" }} />
           </div>
         </div>
       </main>
